@@ -1,0 +1,30 @@
+{
+  "name": "building-redux-workshop",
+  "version": "1.0.0",
+  "description": "Learn concepts of Redux by building it.",
+  "private": true,
+  "repository": "git@github.com:andrew-codes/building-redux-workshop.git",
+  "author": "Andrew Smith <andrew@andrew.codes>",
+  "license": "./docs/LICENSE.md",
+  "scripts": {
+    "generate": "split-guide generate --templates-dir=_workshop_data --silent-success",
+    "setup": "node scripts/verify && node scripts/install",
+    "pretest": "npm run generate",
+    "test": "node scripts/test"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "enzyme": "^2.7.1",
+    "jest": "^19.0.2",
+    "react-addons-test-utils": "^15.4.2",
+    "split-guide": "^1.2.1",
+    "yargs": "^7.0.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}

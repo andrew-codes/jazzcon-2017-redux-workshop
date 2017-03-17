@@ -1,0 +1,18 @@
+/exercises
+/exercises-final
+
+# OS related
+.DS_STORE
+Thumbs.db
+
+
+# IDE
+.idea
+*.suo
+
+# Dependencies
+node_modules
+
+# Misc.
+*.log
+*.orig

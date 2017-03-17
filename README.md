@@ -11,8 +11,8 @@ Accompanies the Building Redux workshop slide deck.
 You will need to start by cloning this repo, then you'll run a simple `setup` script which will install all the dependencies and validate that you're ready to go. From your terminal, type:
 
 ```bash
-git clone https://github.com/andrew-codes/jazzcon-builindg-redux-workshop.git
-cd jazzcon-builindg-redux-workshop
+git clone https://github.com/andrew-codes/jazzcon-2017-redux-workshop.git
+cd jazzcon-2017-redux-workshop
 yarn run setup
 ```
 

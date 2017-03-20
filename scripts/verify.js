@@ -93,8 +93,8 @@ ${errorMessage}`);
 
 // Run script
 const node = process.version;
-let yarn;
-let npm;
+var yarn;
+var npm;
 try {
     yarn = execSync('yarn --version')
         .toString()
